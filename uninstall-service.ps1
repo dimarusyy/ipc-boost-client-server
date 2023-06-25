@@ -1,0 +1,1 @@
+(Get-WmiObject win32_service -Filter "name='IPC Boost Server'").delete()
