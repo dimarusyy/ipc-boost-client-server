@@ -1,8 +1,9 @@
 set(IPC_BOOST_SERVER ipc-boost-server)
 
 add_executable(${IPC_BOOST_SERVER}
-    main.cpp
-)
+    ipc-boost-server.cpp
+    service.cpp
+ "ipc-boost-server.h")
 
 target_link_libraries(${IPC_BOOST_SERVER} 
     PRIVATE

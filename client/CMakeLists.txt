@@ -1,7 +1,7 @@
 set(IPC_BOOST_CLIENT ipc-boost-client)
 
 add_executable(${IPC_BOOST_CLIENT}
-    main.cpp
+    ipc-boost-client.cpp
 )
 
 target_link_libraries(${IPC_BOOST_CLIENT} 
