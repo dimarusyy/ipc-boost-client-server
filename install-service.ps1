@@ -1,4 +1,4 @@
-$binpath=("{0}\out\install\bin\ipc-boost-server.exe" -f (Get-Location));
+$binpath=("{0}\ipc-boost-server.exe" -f (Get-Location));
 Write-Host ('Adding service for : {0}' -f $binpath);
 
 $credentials=new-object -typename System.Management.Automation.PSCredential -argumentlist "NT AUTHORITY\LOCAL SYSTEM";
